@@ -1,0 +1,149 @@
+.contaner-product {
+    margin-left: 120px;
+    margin-top: 99px;
+   display: inline-block;
+    margin-bottom: 130px;
+
+}
+
+
+
+
+
+.contanee {
+    background: linear-gradient(blue 1%, red);
+    border: solid black 2px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.indoor-image {
+    width: 190px;
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 12px;
+}
+
+.buttom-prodct {
+    background: linear-gradient(rgb(44, 25, 44), rgb(180, 180, 180));
+    border: solid black 2px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+   
+
+  
+}
+
+.buttom-prodct:hover {
+
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+.pfp-productor {
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    background-color: white;
+    border: solid 3px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+
+.uttome-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   height: 150px;
+}
+
+.Buy-button {
+  
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    border: solid 2px rgb(255, 255, 255);
+    padding-right: 62.1px;
+    padding-left: 62.1px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(135, 225, 0);
+    transition: border-radius 0.3s;
+    cursor: pointer;
+
+    
+}
+
+
+.Buy-button:hover {
+    background-color: rgb(47, 242, 47);
+    border-radius: 5px;
+
+}
+
+.Buy-button:active {
+    opacity: 0.7;
+    border-radius: 1px;
+}
+
+.userName {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+.Button-meny {
+  
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.Button-how-meny {
+     
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    border: solid 2px rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(1, 50, 56, 0.468);
+    transition: border-radius 0.3s;
+    cursor: pointer;
+
+}
+.Button-how-meny:hover {
+    background-color: rgb(47, 242, 47);
+    border-radius: 5px;
+
+}
+
+.Button-how-meny:active {
+    opacity: 0.7;
+    border-radius: 1px;
+}
+
+.Type-Of {
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 2px;
+ transition:  box-shadow 1s;
+ transition: font-size 1s;
+}
+
+
+.Type-Of:hover {
+    box-shadow: 1px 1px 9px black;
+    font-size: 19px;
+}

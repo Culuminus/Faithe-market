@@ -1,0 +1,39 @@
+.contaner-side-ber {
+background: linear-gradient(white 20%, rgb(246, 84, 84));
+border-right: black solid 1px;
+position: fixed;
+left: 0px;
+top: 100px;
+bottom: 0px;
+width: 104px;
+
+}
+
+
+.settings-contaner {
+    height: 107px;
+    width: 104px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+
+}
+
+
+.settings-contaner:hover {
+    background-color: rgb(203, 203, 203);
+    cursor: pointer;
+}
+
+
+.settings-contaner img {
+    width: 27px;
+
+}
+
+.right-side-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 12px;
+    font-size: 13px;
+}
